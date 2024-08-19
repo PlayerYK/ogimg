@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Share Info</title>
+    <style>
+        #main {
+            width: 300px;
+            margin: auto;
+        }
+
+        #page-title {
+            font-weight: bold;
+            margin:0.5em 0;
+        }
+
+        #page-desc {
+            margin:0.5em 0;
+        }
+
+        #img-preview {
+            width: 60%;
+            display: block;
+            margin: auto;
+            padding: 20px;
+        }
+
+        #img-preview:hover {
+            opacity: 0.5;
+            cursor: pointer;
+            outline: solid 1px darkgrey;
+        }
+
+        #img-url {
+            text-align: center;
+            display: block;
+            margin: 1em auto;
+            font-size: small;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="page-title"></div>
+    <div id="page-desc"></div>
+    <img id="img-preview" src title="Click to download">
+    <div>
+        <div id="img-tips"></div>
+        <a id="img-url" href="" title="Open image in new tab" target="_blank"></a>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
