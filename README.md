@@ -1,4 +1,4 @@
-![og:me banner](images/og128.png)
+![og image logo](images/128.png)
 
 # og:me: a Chrome extension
 
@@ -8,7 +8,7 @@
 
 TO USE:
 
-1. Click the **og:me** Chrome extension icon ![og:me icon](images/og16.png) when visiting any webpage
+1. Click the **og:me** Chrome extension icon ![og:me icon](images/19.png) when visiting any webpage
 2. Click on the displayed image in the preview box to download it
 
 This <a href="https://chrome.google.com/webstore/detail/og:me/kkhddppbaabnelnahdndgjhiddnbchbo" target="_blank">Chrome extension</a> should be particularly useful for social media editors and managers who want to streamline the process of grabbing a social-optimized image off any article page so that the image can then be uploaded onto another social platform. **og:me** also shows a preview of the current `og:image`, so you can see how well-optimized that image is for social sharing.
