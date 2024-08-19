@@ -1,25 +1,24 @@
 ![og image logo](images/128.png)
 
-# og:me: a Chrome extension
+# OG Image: a Chrome extension
 
-### Download a webpage's `og:image` in just two clicks
+### Get a webpage's og:image and other share info in just one click
 
-**og:me** lets you quickly download the image that is defined in the `og:image` tag of a webpages's HTML.
+OG Image Extension is a simple tool designed specifically for content creators and developers. It allows users to effortlessly extract essential sharing information from any webpage, providing a quick summary and shareable image. This extension is particularly beneficial for self-media authors who need to gather page summaries and images for their content, as well as developers who want to verify the functionality of their sharing features.
 
-TO USE:
+## Key Features
+- **Extract Share Information**: Quickly obtain a concise summary of the webpage, including the title, description, and shareable image.
+- **Open Graph Image Retrieval**: Automatically fetch the `og:image` for easy download.
+- **Multi-Source Title and Description**: The extension checks various sources to ensure the most accurate information is retrieved:
+    - **Title**: Checks `og:title`, `twitter:title`, and falls back to `document.title`.
+    - **Description**: Checks `og:description`, `twitter:description`, and falls back to the meta description tag.
+- **Developer-Friendly**: Ideal for developers to test and ensure that their page's sharing functionality is working correctly.
 
-1. Click the **og:me** Chrome extension icon ![og:me icon](images/19.png) when visiting any webpage
+
+## How to use:
+
+1. Click the **OG Image** Chrome extension icon ![og:me icon](images/19.png) when visiting any webpage
 2. Click on the displayed image in the preview box to download it
 
-This <a href="https://chrome.google.com/webstore/detail/og:me/kkhddppbaabnelnahdndgjhiddnbchbo" target="_blank">Chrome extension</a> should be particularly useful for social media editors and managers who want to streamline the process of grabbing a social-optimized image off any article page so that the image can then be uploaded onto another social platform. **og:me** also shows a preview of the current `og:image`, so you can see how well-optimized that image is for social sharing.
 
-If no image is defined in the `og:image` tag, no image preview will appear---so if it's in your power you should, you know, fix that.  
-
-Note that the image will be downloaded to the destination defined by the user's Chrome settings, which usually defaults to the *Downloads* folder.
-
-For feature requests and bug reports, submit items to the Github repo: https://github.com/austinjalexander/ogme/issues.
-
-Created by <a href="https://twitter.com/austinjalexande" target="_blank">@austinjalexande</a> and <a href="https://twitter.com/NateGoldman" target="_blank">@NateGoldman</a>.
-
-
-
+This project if originally forked from GitHub repo: https://github.com/austinjalexander/ogme.
