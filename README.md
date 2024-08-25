@@ -17,8 +17,9 @@ OG Image Extension is a simple tool designed specifically for content creators a
 
 ## How to use:
 
-1. Click the **OG Image** Chrome extension icon ![og:me icon](images/19.png) when visiting any webpage
-2. Click on the displayed image in the preview box to download it
+1. Install extension on Chrome Web Store: [OG Image V1.0.0](https://chromewebstore.google.com/detail/nfmpinjogbhbbodaijmljhpfbggdhcbg?hl=en)
+2. Click the **OG Image** Chrome extension icon ![og:me icon](images/19.png) when visiting any webpage
+3. Click on the displayed image in the preview box to download it
 
 
 This project if originally forked from GitHub repo: https://github.com/austinjalexander/ogme.
